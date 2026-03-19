@@ -1,0 +1,23 @@
+/* Fulfills Task 3 requirement for background image */
+.landing-page {
+  background-image: url('https://images.unsplash.com/photo-1466781783364-391eaf83ec2a?auto=format&fit=crop&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.get-started-button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
